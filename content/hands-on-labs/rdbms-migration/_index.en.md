@@ -19,7 +19,7 @@ Schema flexibility lets DynamoDB store complex hierarchical data within an item 
 
 This module will briefly discuss the techniques to design target data model and migrate relational datasets from MySQL to Amazon DynamoDB. The IMDb data inside MySQL database is normalized across multiple tables.
 We will use denormalized/item collection modelling techniques to create comprehensive data model for identified access patterns.
-There are multiple factors that will influence our decision to build target data model
+There are multiple factors that will influence our decisions in building the target data model:
   - Access patterns
   - Cardinality
   - Overall I/O
